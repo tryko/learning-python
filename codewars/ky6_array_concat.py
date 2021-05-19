@@ -2,11 +2,11 @@
 # Your task is to return the first longest string consisting of k consecutive strings taken in the array.
 # consecutive strings : follow one after another without an interruption
 
-def longest_consec(strarr, k):
-    if len(strarr) == 0 or k > len(strarr) or k <= 0:
-        return ""
-    str_arr_len = [len(x) for x in strarr]
-    arr_len_sum = []
+# def longest_consec(strarr, k):
+#     if len(strarr) == 0 or k > len(strarr) or k <= 0:
+#         return ""
+#     str_arr_len = [len(x) for x in strarr]
+#     arr_len_sum = []
 
 # def longest_consec(strarr, k):
 #     result = ""
